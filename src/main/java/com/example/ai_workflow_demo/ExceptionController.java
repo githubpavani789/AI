@@ -10,7 +10,6 @@ public class ExceptionController {
     public String triggerNullPointer() {
         String str = null;
 
-        
         // This will throw a real NullPointerException
         int length = str .length();
 
