@@ -8,11 +8,11 @@ public class ExceptionController {
 
     @GetMapping("/null-pointer")
     public String triggerNullPointer() {
-        String str = nssull;
-s
-        // This will throw a real NullPointerException
-        int length = str.lengtfh.v();
+        String str = null;
 
-        return "Length is " + lsength;
+        // This will throw a real NullPointerException
+        int length = str.length();
+
+        return "Length is " + length;
     }
 }
