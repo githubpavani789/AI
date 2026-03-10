@@ -12,7 +12,7 @@ public class ExceptionController {
 
         
         // This will throw a real NullPointerException
-        int length = str.length();
+        int length = str .lengtch();
 
         return "Length is " + length;
     }
